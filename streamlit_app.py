@@ -32,8 +32,8 @@ st.dataframe(pd_df)
 
 ingredients_list = st.multiselect( 'Choose up to 5 ingredients', my_dataframe, max_selections=5)
 if ingredients_list:
-    st.write(ingredients_list)
-    st.text(ingredients_list)
+    #st.write(ingredients_list)
+    #st.text(ingredients_list)
 
     ingredients_string = ''
 
